@@ -1,7 +1,7 @@
 # io
-Short explanation of Inputs and Outputs (Streams, Readers and Writers)
 
-
+</br>
+</br>
 
 INPUTS / ENTRADAS / LEITURA
 - InputStream	(bytes)
@@ -11,7 +11,9 @@ INPUTS / ENTRADAS / LEITURA
 - Reader (characteres)
 	InputStremReader -> FileReader
 	BufferedReader
-
+	
+</br>
+</br>
 
 OUTPUTS / SAÍDAS / ESCRITA
 - OutputStream (bytes)
@@ -25,41 +27,60 @@ OUTPUTS / SAÍDAS / ESCRITA
 	BufferedWriter
 	PrintWriter
 
-
+</br>
+</br>
+</br>
 
 -----------------------------------------------------------
 
+</br>
+</br>
+</br>
 
 
 InputStream 		-> InputStreamReader 		-> Reader
 stream of bytes		character					stream of character		
 					make a stream of bytes in a character, in a reader
+					
+</br>
 
 OutputStream 		-> OutputStreamWriter 		-> Writer
 stream of bytes		character					stream of character		
 					make a stream of bytes in a character, in a writer
 
-
+</br>
+</br>
+</br>
 
 -----------------------------------------------------------
 
-
+</br>
+</br>
+</br>
 
 Stream 
 lê/escreve bytes
 fluxo de dados binarios
 
+</br>
+
 Reader 
 lê caracteres ou dados binarios	
+
+</br>
 
 Writer 
 escreve caracteres ou dados binarios	
 
-
+</br>
+</br>
+</br>
 
 -----------------------------------------------------------
 
-
+</br>
+</br>
+</br>
 
 FileInputStream
 	fluxo de entrada com um arquivo
@@ -73,9 +94,13 @@ BufferedReader
 	guarda os caracteres de uma linha em um buffer
 	guarda os caracteres de uma linha em um buffered
 
+</br>
+</br>
 
 no final é preciso fechar o bufferedReader
 .close()
 ele já fecha o InputStreamReader e o FileInputStream
 
-Jogar o arquivo na raiz do projeto
+</br>
+
+Jogar o arquivo na raiz do projeto.
